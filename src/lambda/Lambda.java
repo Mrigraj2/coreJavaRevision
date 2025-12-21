@@ -1,3 +1,5 @@
+package lambda;
+
 @FunctionalInterface
 interface Demo{
     void display();
