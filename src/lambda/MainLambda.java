@@ -7,6 +7,5 @@ public class MainLambda {
         };
         d1.display("parametrised lambda method");
 
-
     }
 }
