@@ -53,6 +53,10 @@ public class MethodReference {
 
         Addition rd = d1::exchangeValue;
         rd.addition(6,7);
+
+        Addition ad1 = Dummy::new;
+
+        ad1.addition(57,56);
     }
 
 }
