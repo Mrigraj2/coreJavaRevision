@@ -2,7 +2,7 @@ package fileio;
 
 import java.io.FileOutputStream;
 
-public class Write {
+public class StreamWrite {
 
     public static void main(String[] args){
         try(FileOutputStream fos = new FileOutputStream("C:\\Users\\coolk\\desktop\\CoreJava\\text.txt"))
