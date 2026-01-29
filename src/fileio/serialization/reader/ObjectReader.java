@@ -12,6 +12,6 @@ public class ObjectReader {
 
         Student s;
         s=(Student) ois.readObject();
-        System.out.println(s.toString());
+        System.out.println(s.rollNo+"\n"+s.name+"\n"+s.department);
     }
 }
