@@ -30,6 +30,5 @@ public class ArrayClass {
 
         while(lit.hasNext()) System.out.print(lit.next());
 
-
     }
 }
