@@ -7,7 +7,6 @@ class DataArray<T> {
         array[length++]=value;
     }
 
-
 }
 
 public class DataArray2 extends DataArray<String>{
