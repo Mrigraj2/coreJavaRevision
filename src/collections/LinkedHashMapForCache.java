@@ -22,5 +22,8 @@ public class LinkedHashMapForCache {
         lhm.put(6,"ty");
 
         lhm.forEach((x,y)->System.out.println(x + " " +y));
+
+        Iterator<Integer> i = lhm.keySet().iterator();
+        while(i.hasNext()){System.out.println(i.next());}
     }
 }
