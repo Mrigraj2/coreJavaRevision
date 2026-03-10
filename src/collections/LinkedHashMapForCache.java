@@ -19,6 +19,8 @@ public class LinkedHashMapForCache {
         lhm.put(5,"e");
         String d = lhm.get(3);
 
+        lhm.put(6,"ty");
+
         lhm.forEach((x,y)->System.out.println(x + " " +y));
     }
 }
