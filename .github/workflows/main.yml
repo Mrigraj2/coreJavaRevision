@@ -1,0 +1,13 @@
+name: Demo Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: complie java
+        run: |
+          echo "Hello world"
+          echo "Step completed"
+
+      - name: final step
+        run: echo "All steps complete"
